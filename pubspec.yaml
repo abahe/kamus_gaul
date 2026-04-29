@@ -1,0 +1,45 @@
+name: kamusgaul_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.3.0
+  http: ^1.4.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.4"
+  riverpod_generator: ^2.3.0
+  build_runner: ^2.4.0
+
+flutter_launcher_icons:
+  #  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  android: "launcher_icon"
+  adaptive_icon_background: "#f1f2f4"
+  #  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_foreground: "assets/icon.png"
+  remove_alpha_ios: true
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
